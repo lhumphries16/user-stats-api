@@ -31,7 +31,7 @@
 - [X] Pushed to Github repository
 - [ ] Hosted on Heroku
 
-<h2>Assumptions</h2>:
+<h2>Assumptions</h2>
 
 - When considering statistics #2 and #3, "A-M/N-Z" means specifically latin characters; names in languages that use non-latin alphabets are excluded from percentage calculation and the number of such names is displayed as "other"
 - If there are states with the same populations, for statistics #4 and #5, the 10 shown will be "first-come, first-serve" based on their position in the input "results" array
