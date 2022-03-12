@@ -1,0 +1,12 @@
+{
+  "name": "user-stats-api",
+  "version": "1.0.0",
+  "description": "Rest API endpoint for retrieving statistics about a group of users",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "xml-js": "^1.6.11"
+  }
+}
