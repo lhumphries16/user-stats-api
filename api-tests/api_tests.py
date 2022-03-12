@@ -2,12 +2,12 @@ import json
 import unittest
 import requests
 
-url = 'http://localhost:8888/users/statistics' #Endpoint for stats
+url = 'https://user-stats-api.herokuapp.com/users/statistics' #Endpoint for stats
 headers = {'Accept': 'application/json'}
 
 #Try to load test user JSON and output error message if unavailable
 try:
-    with open('/test_data/users.json') as file:
+    with open('test_data/users.json') as file:
         user_json = json.load(file)
 except:
     print('\nCannot load user data from "users.json".\n')
